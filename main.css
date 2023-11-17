@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+/**font-family: 'Quicksand', sans-serif;**/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url(assets/jg_bg_medium_dark.jpg);
+    background-position: center bottom;
+    background-repeat: none;
+    background-attachment: fixed;
+    font-family: 'Quicksand', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 400;
+    color: rgb(235, 255, 216);
+    font-size: 3.7em;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 20px;
+    font-weight: 600;
+}
+
+h2 {
+    color: rgb(203, 247, 202);
+}
+
+#pic_area {
+    background-color: rgba(115, 177, 99, 0.411);
+    backdrop-filter: blur(3px);
+    margin-top: 60px;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 1000px;
+    height: 35%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#pic_swap {
+    max-width: 800px;
+    max-width: 90%;
+    max-height: 600px;
+    widht: auto;
+    height: auto;
+    border-radius: 6px;
+    padding: 2%;
+}
+
+#button_area {
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 90%;
+    max-width: 1000px;
+    margin-top: 30px;
+}
+
+#cat, #dog {
+    background-color: rgba(115, 177, 99, 0.411);
+    backdrop-filter: blur(6px);
+    width: 40%;
+    border-radius: 10px; 
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#cat {
+    margin-left: 3px;
+}
+
+#dog {
+    margin-right: 3px;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(246, 255, 238);
+    font-size: 2em;
+    text-shadow: 0px 1px 3px rgba(26, 112, 52, 0.527);
+    font-weight: 600;
+}
+
+
+#cat:hover, #dog:hover {
+    transform: scale(95%);
+    transition: all 100ms;
+    box-shadow: 0px 0px 15px rgba(13, 68, 47, 0.795);
+}
+
+
+#totoro {
+    width: 20%;
+    max-width: 200px;
+    margin-top: 20px;
+    margin-left: 80%;
+}
+
+footer {
+    margin-top: -40px;
+    color: rgb(167, 231, 166);
+}
+
+@media (min-width: 500px) {
+    #pic_area {
+        height:fit-content;
+        max-height: 70%;
+    }
+  }
+  
